@@ -203,7 +203,7 @@ TEST_CASE("Round a float.") {
 
 /** All true.
  * Checks if all elements in the array are true.
- * O(?)
+ * O(n)
  */
 bool all(bool arr[], int n);
 
@@ -223,7 +223,7 @@ TEST_CASE("All true.") {
 
 /** Any true
  * Returns whether or not any element is true.
- * O(?)
+ * O(n)
  */
 bool any(bool arr[], int n);
 
@@ -243,7 +243,7 @@ TEST_CASE("Any element.") {
 
 /** Frequency of x.
  * Returns the frequency of x in the given array.
- * O(?)
+ * O(n)
  */
 int frequency(int arr[], int n, int x);
 
@@ -263,7 +263,7 @@ TEST_CASE("testing frequency function") {
 
 /** Sum.
  * Returns the sum of all elements in the array.
- * O(?)
+ * O(n)
  */
 long sum(int arr[], int n);
 
@@ -283,7 +283,7 @@ TEST_CASE("testing sum function") {
 
 /** Index.
  * Returns the index of the given substring if found, or -1.
- * O(?)
+ * O(n?)
  */
 int index(char str[], char substr[]);
 
@@ -307,7 +307,7 @@ TEST_CASE("testing index function") {
 
 /** Is sorted.
  * Returns if an array is strictly increasing, decreasing, or neither.
- * O(?)
+ * O(n)
  */
 bool is_sorted(int arr[], int n);
 
